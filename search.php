@@ -5,181 +5,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .tb {
-            display: table;
-            width: 100%;
-        }
-
-        .td {
-            display: table-cell;
-            vertical-align: middle;
-        }
-
-        input,
-        button {
-            color: #fff;
-            font-family: Nunito;
-            padding: 0;
-            margin: 0;
-            border: 0;
-            background-color: transparent;
-        }
-
-        #cover {
-            position: absolute;
-            top: 50%;
-            left: 0;
-            right: 0;
-            width: 550px;
-            padding: 35px;
-            margin: -83px auto 0 auto;
-            background-color: #ff7575;
-            border-radius: 20px;
-            box-shadow: 0 10px 40px #ff7c7c, 0 0 0 20px #ffffffeb;
-            transform: scale(0.6);
-        }
-
-        form {
-            height: 96px;
-        }
-
-        input[type="text"] {
-            width: 100%;
-            height: 96px;
-            font-size: 60px;
-            line-height: 1;
-        }
-
-        input[type="text"]::placeholder {
-            color: #e16868;
-        }
-
-        #s-cover {
-            width: 1px;
-            padding-left: 35px;
-        }
-
-        button {
-            position: relative;
-            display: block;
-            width: 84px;
-            height: 96px;
-            cursor: pointer;
-        }
-
-        #s-circle {
-            position: relative;
-            top: -8px;
-            left: 0;
-            width: 43px;
-            height: 43px;
-            margin-top: 0;
-            border-width: 15px;
-            border: 15px solid #fff;
-            background-color: transparent;
-            border-radius: 50%;
-            transition: 0.5s ease all;
-        }
-
-        button span {
-            position: absolute;
-            top: 68px;
-            left: 43px;
-            display: block;
-            width: 45px;
-            height: 15px;
-            background-color: transparent;
-            border-radius: 10px;
-            transform: rotateZ(52deg);
-            transition: 0.5s ease all;
-        }
-
-        button span:before,
-        button span:after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            width: 45px;
-            height: 15px;
-            background-color: #fff;
-            border-radius: 10px;
-            transform: rotateZ(0);
-            transition: 0.5s ease all;
-        }
-
-        #s-cover:hover #s-circle {
-            top: -1px;
-            width: 67px;
-            height: 15px;
-            border-width: 0;
-            background-color: #fff;
-            border-radius: 20px;
-        }
-
-        #s-cover:hover span {
-            top: 50%;
-            left: 56px;
-            width: 25px;
-            margin-top: -9px;
-            transform: rotateZ(0);
-        }
-
-        #s-cover:hover button span:before {
-            bottom: 11px;
-            transform: rotateZ(52deg);
-        }
-
-        #s-cover:hover button span:after {
-            bottom: -11px;
-            transform: rotateZ(-52deg);
-        }
-
-        #s-cover:hover button span:before,
-        #s-cover:hover button span:after {
-            right: -6px;
-            width: 40px;
-            background-color: #fff;
-        }
-
-        #ytd-url {
-            display: block;
-            position: fixed;
-            right: 0;
-            bottom: 0;
-            padding: 10px 14px;
-            margin: 20px;
-            color: #fff;
-            font-family: Nunito;
-            font-size: 14px;
-            text-decoration: none;
-            background-color: #ff7575;
-            border-radius: 4px;
-            box-shadow: 0 10px 20px -5px rgba(255, 117, 117, 0.86);
-            z-index: 125;
-        }
-    </style>
+    <link rel="stylesheet" href="./assets/css/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/registerBoxStyle.css">
+    <script language="JavaScript" type="text/javascript" src="validator.js"></script>
+    <title>Register</title>
 </head>
 
 <body>
-    <div id="cover">
-        <form method="POST" action="index.php">
-            <div class="tb">
-                <div class="td">
-                    <input type="text" name="textfield" placeholder="Search" id="bar">
-                    <input type="hidden" name="page" value="search_processing">
-                </div>
-                <div class="td" id="s-cover">
-                    <button type="submit">
-                        <div id="s-circle"></div>
-                        <span></span>
-                    </button>
-                </div>
+    <form class="form" id="form-1" action="index.php" method="post">
+        <input type="hidden" name="page" value="search_processing">
+        <h1 class="register-content">Search</h1>
+        <span class="form-message" id="response" href="javascript: reload()"></span>
+        <div class="account-info">
+            <div class="form-group">
+                <input type="text" name="id" placeholder="Student ID" id="Password" class="PasswordField form-control" rules="required|min:6" />
+                <span class="form-message"></span>
             </div>
-        </form>
-    </div>
+        </div>
+        <!-- <button id="sign-up-button" type="submit" form="form-1" value="Submit">Register</button> -->
+        <input id="sign-up-button" type="submit" name="signup_submit" value="Search" />
+        <input id="back-to-login" onclick="location.href='./index.php';" value="Back to Home"></button>
+    </form>
+    <!-- <script language="JavaScript" type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mong muốn của chúng ta
+            Validator({
+                form: '#form-1',
+                formGroupSelector: '.form-group',
+                errorSelector: '.form-message',
+                rules: [
+                    Validator.isRequired('#Username', 'Username must be filled'),
+                    Validator.usernameCheck('#Username', 'Username must be in correct form'),
+                    Validator.isRequired('#Firstname', 'Please fill your first name'),
+                    Validator.isRequired('#Lastname', 'Please fill your last name'),
+                    Validator.isRequired('#Phone', 'Please fill your phone number'),
+                    Validator.phoneCheck('#Phone', 'Phone must be in correct form'),
+                    Validator.isNumber('#Phone', 'Phone must be number'),
+                    Validator.isRequired('#Password', 'Password must be filled'),
+                    Validator.minLength('#Password', 8, 'Password is at least 8 characters'),
+                    Validator.isConfirmed('#RetypePassword', function() {
+                        return document.querySelector('#Password').value;
+                    }, 'Pasword is not match'),
+                    Validator.passwordCheck('#Password')
+                ],
+            });
+        });
+
+        function getParameter(parameterName) {
+            let parameter = new URLSearchParams(window.location.search);
+            return parameter.get(parameterName);
+        }
+
+        var baseURL = window.location.href.split("?")[0];
+        var success = getParameter('success');
+        var error = getParameter('error');
+        console.log(baseURL);
+        console.log(success);
+        console.log(error);
+        var element = document.getElementById('response');
+        if (success) {
+            element.innerHTML = success;
+            element.classList.remove('error');
+            element.classList.add("success");
+            window.history.pushState('name', '', baseURL);
+        }
+        if (error) {
+            element.innerHTML = error;
+            element.classList.remove("success");
+            element.classList.add("error");
+            window.history.pushState('name', '', baseURL);
+        }
+    </script> -->
 </body>
 
 </html>

@@ -1,10 +1,11 @@
 <div id="content">
     <!-- Begin:About -->
     <div class="content-section">
-        <h2 class="section-heading">THE BAND</h2>
-        <p class="section-sub-heading">We love music</p>
+        <h2 class="section-heading">HCMUT</h2>
+        <p class="section-sub-heading">Ho Chi Minh City University Of Technology</p>
         <p class="about-text">
-            We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            The Ho Chi Minh City University of Technology (abbreviation: HCMUT Vietnamese: Trường Đại học Bách khoa, Đại học Quốc gia Thành phố Hồ Chí Minh) is a key member university of Vietnam National University, Ho Chi Minh City and is the flagship university in technology teaching and research activities in Vietnam.
+            HCMUT is a center of technology - industry and management training. Up to May 2005, HCMUT has 11 faculties, 14 research and development (R&D) centers, 4 training centers, 10 functioning offices and one joint-stock company. During the past 40 years since Vietnam's unification, 60,000 Engineers and Bachelors have graduated from HCMUT. Up to now, HCMUT have trained 60,000 Engineers and Bachelors, more than 10,000 Masters and 200 Doctors.
         </p>
     </div>
     <!-- End: About -->

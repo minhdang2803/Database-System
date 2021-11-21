@@ -1,4 +1,4 @@
-<?php include "createDB.php"; session_start(); ?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,22 +13,17 @@
 </head>
 
 <body>
-    
+
     <div id="App">
         <?php
         include 'header.php';
-        if(isset($_POST['page']))
-        {
+        if (isset($_POST['page'])) {
             $page = $_POST['page'];
-        }
-        else if(isset($_GET['page']))
-        {
+        } else if (isset($_GET['page'])) {
             $page = $_GET['page'];
-        }
-        else {
+        } else {
             $page =  "home";
         }
-        
         switch ($page) {
             case "home":
                 include "slider.php";
@@ -47,17 +42,6 @@
                 include("product.php");
                 break;
 
-            case "pen":
-                include("./product/pen.php");
-                break;
-
-            case "pencil":
-                include("./product/pencil.php");
-                break;
-
-            case "marker":
-                include("./product/marker.php");
-                break;
             case "logout":
                 include "./logout.php";
                 break;
@@ -65,9 +49,28 @@
             case "search":
                 include "./search.php";
                 break;
-            
-            case "search_processing" :
+
+            case "search_processing":
                 include "./search_processing.php";
+                break;
+
+            case "aao":
+                include "./aao.php";
+                break;
+
+            case "faculty":
+                include "./faculty.php";
+                break;
+
+            case "lecturer":
+                include "./lecturer.php";
+                break;
+
+            case "student":
+                include "./student.php";
+                break;
+            case "aao_processing":
+                include "./aao_processing.php";
                 break;
         }
         include 'footer.php';

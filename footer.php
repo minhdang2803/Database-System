@@ -7,7 +7,7 @@
                 <a href=""><i class = "ti-twitter"></i></a>
                 <a href=""><i class = "ti-linkedin"></i></a>
             </div>
-            <p class="copyright">Web Programming - <a href="">CO3031
+            <p class="copyright">Database System - <a href="">CO2013
                 
             </a></p>
         </div>

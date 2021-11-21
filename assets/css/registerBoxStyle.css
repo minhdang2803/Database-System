@@ -22,12 +22,12 @@
             font-family: var(--finalFont);
             font-weight: 300;
             height: 100vh;
-            overflow: hidden;
+            overflow-y: scroll;
         }
         
         .form {
             position: relative;
-            margin: 50px auto;
+            margin: 100px auto;
             width: 300px;
             min-height: 100px;
             box-sizing: border-box;
