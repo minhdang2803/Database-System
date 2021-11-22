@@ -1,0 +1,21 @@
+"`id` 	",`no_credit`,`semester`,`faculty_name`
+SP1007,1,202,Materials Technology
+SP1005,3,192,Transportation  Engineering
+SP1003,2,202,Geology & Petroleum Engineering
+PH1007,3,191,Environment
+PH1003,2,202,Industrial Management
+MT1009,2,201,Applied Science
+MT1007,1,191,Civil Engineering
+MT1005,2,192,Mechanical Engineering
+MT1003,3,191,Engineering
+CH1003,2,192,Chemical Technology
+SP1005,2,191,Materials Technology
+SP1003,3,202,Transportation  Engineering
+PH1007,1,201,Geology & Petroleum Engineering
+PH1003,1,191,Environment
+MT1009,2,192,Industrial Management
+MT1007,1,191,Applied Science
+MT1005,2,192,Civil Engineering
+MT1003,2,202,Mechanical Engineering
+CH1003,3,192,Engineering
+SP1007,1,202,Chemical Technology

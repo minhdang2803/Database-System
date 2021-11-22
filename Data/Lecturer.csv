@@ -1,0 +1,31 @@
+`id`,`name`,`email`,`phone`,`role`,`faculty_name`
+1,Lemar Lindback,Lemar Lindback@google.com,7754353739,Grading,Materials Technology
+2,Marty De Cleen,Marty De Cleen@google.com,7754353749,Grading,Transportation  Engineering
+3,Vivyanne Kelling,Vivyanne Kelling@google.com,7754353759,Grading,Geology & Petroleum Engineering
+4,Crosby Bellis,Crosby Bellis@google.com,7754353769,Teaching,Environment
+5,Eliza Wilds,Eliza Wilds@google.com,7754353779,Teaching,Industrial Management
+6,Cinda Honnan,Cinda Honnan@google.com,7754353789,Grading,Applied Science
+7,Meara Oleshunin,Meara Oleshunin@google.com,7754353799,Grading,Civil Engineering
+8,Dalston Andrivel,Dalston Andrivel@google.com,7754353809,Grading,Mechanical Engineering
+9,Miguelita Foote,Miguelita Foote@google.com,7754353819,Teaching,Engineering
+10,Bird Dudman,Bird Dudman@google.com,7754353829,Teaching,Chemical Technology
+11,Abba Balbeck,Abba Balbeck@google.com,7754353839,Teaching,Materials Technology
+12,Mathian McCreery,Mathian McCreery@google.com,7754353849,Grading,Transportation  Engineering
+13,Wallis Waycot,Wallis Waycot@google.com,7754353859,Teaching,Geology & Petroleum Engineering
+14,Cherice Braim,Cherice Braim@google.com,7754353869,Teaching,Environment
+15,Nalani Manders,Nalani Manders@google.com,7754353879,Grading,Industrial Management
+16,Timmie Labet,Timmie Labet@google.com,7754353889,Teaching,Applied Science
+17,Charlie Maharg,Charlie Maharg@google.com,7754353899,Grading,Civil Engineering
+18,Camilla Dukesbury,Camilla Dukesbury@google.com,7754353909,Grading,Mechanical Engineering
+19,Carolee Heintz,Carolee Heintz@google.com,7754353919,Grading,Engineering
+20,Raleigh Giberd,Raleigh Giberd@google.com,7754353929,Teaching,Chemical Technology
+21,Dewey Rickeard,Dewey Rickeard@google.com,7754353939,Teaching,Materials Technology
+22,Gray Deegan,Gray Deegan@google.com,7754353949,Grading,Transportation  Engineering
+23,Vincenty Ekless,Vincenty Ekless@google.com,7754353959,Grading,Geology & Petroleum Engineering
+24,Wendell Fosken,Wendell Fosken@google.com,7754353969,Teaching,Environment
+25,Jerrilee Dukelow,Jerrilee Dukelow@google.com,7754353979,Teaching,Industrial Management
+26,Latia Labroue,Latia Labroue@google.com,7754353989,Teaching,Applied Science
+27,Yancey Jerrome,Yancey Jerrome@google.com,7754353999,Grading,Civil Engineering
+28,Jed Vogt,Jed Vogt@google.com,7754354009,Grading,Mechanical Engineering
+29,Blakeley Zieme,Blakeley Zieme@google.com,7754354019,Grading,Engineering
+30,Sibylle Durker,Sibylle Durker@google.com,7754354029,Grading,Chemical Technology

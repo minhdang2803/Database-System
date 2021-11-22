@@ -1,0 +1,31 @@
+`id` ,`grade`,`name`,`status`,`no_credit`,`phone`, `faculty_name`
+1951312,5.8,Taite Ballefant,Active,8,3613220290,Materials Technology
+1952698,3.6,Dacia Navan,Suspended,2,2652782078,Transportation  Engineering
+1958151,2.8,Ronny Vaillant,Suspended,4,1625805067,Geology & Petroleum Engineering
+1958729,8.7,Branden Willford,Active,8,7027376919,Environment
+1952206,8.1,Dewain MacEntee,Suspended,4,9454861990,Industrial Management
+1954152,8.7,Lela Hugonnet,Active,7,8656703188,Applied Science
+1956653,7.6,Rab Main,Suspended,4,2873878998,Civil Engineering
+1954952,0.4,Leora Dryburgh,Active,0,4309010713,Mechanical Engineering
+1952856,6.8,Mitzi Kirkwood,Suspended,4,3157740411,Engineering
+1951542,0.5,Hilde Jerrom,Suspended,7,9477383328,Chemical Technology
+1955370,7,Fayina Gawen,Active,1,5967983967,Materials Technology
+1955109,2.7,Archy McCorry,Suspended,14,3771063196,Transportation  Engineering
+1959680,5.4,Gene Solman,Suspended,3,9378266080,Geology & Petroleum Engineering
+1959933,9.4,Reggie Gane,Suspended,9,3888001482,Environment
+1952201,8.7,Branden Suttill,Active,13,5999428834,Industrial Management
+1953886,7.4,Meier MacAlpyne,Active,2,9749783361,Applied Science
+1958197,9.1,Erek Macon,Active,16,6584446408,Civil Engineering
+1953473,7.5,Skelly Piscopello,Suspended,0,8622052383,Mechanical Engineering
+1957699,0.2,Eldin Copestick,Active,18,3094117732,Engineering
+1953456,7.6,Bent Hub,Active,15,2565180998,Chemical Technology
+1950342,0.9,Maighdiln Crebbin,Active,16,6105205109,Materials Technology
+1959086,7.2,Ilaire Goodale,Suspended,11,5024645794,Transportation  Engineering
+1956474,3.5,Stace de Amaya,Active,18,6642121868,Geology & Petroleum Engineering
+1955093,8.9,Luciano Crosskell,Suspended,14,5876078572,Environment
+1955315,5.9,Stace Taillant,Active,2,4422933428,Industrial Management
+1954351,9.1,Camala Rattrie,Suspended,10,2089172778,Applied Science
+1953118,6.5,Nessie Janouch,Active,6,6641773595,Civil Engineering
+1952336,1.6,Marnia Jumont,Active,15,4355455358,Mechanical Engineering
+1953270,9.2,Corene Tarbox,Active,1,6165390608,Engineering
+1954973,6.1,Anstice Tesmond,Active,15,6244680215,Chemical Technology
